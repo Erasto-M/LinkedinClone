@@ -22,6 +22,7 @@ public class welcomeScreen extends AppCompatActivity {
                     public void run() {
                         Intent loginIntent = new Intent(welcomeScreen.this, Login.class);
                         startActivity(loginIntent);
+                        finish();
                     }
                 }, 3000);
     }
