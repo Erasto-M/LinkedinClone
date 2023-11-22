@@ -1,4 +1,4 @@
-package com.example.screendesign.Authentication;
+package com.example.linkedInClone.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.screendesign.R;
+import com.example.linkedInClone.R;
 
 public class Login extends AppCompatActivity {
     TextView SignUpTextview;

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.screendesign"
+    namespace = "com.example.linkedInClone"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.screendesign"
+        applicationId = "com.example.linkedInClone"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.screendesign.Authentication;
+package com.example.linkedInClone.Authentication;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.screendesign.R;
+import com.example.linkedInClone.R;
 
 public class SIGNUp extends AppCompatActivity {
     TextView LoginTextview;
