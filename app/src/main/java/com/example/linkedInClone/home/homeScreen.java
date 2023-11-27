@@ -68,14 +68,9 @@ public class homeScreen extends AppCompatActivity {
             public void onCallButtonClick(UserProfile user) {
                 String phoneNumber = user.getPhoneNumber();
                 if (phoneNumber != null && !phoneNumber.isEmpty()) {
-                    Intent callIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
-                    Intent chooser = Intent.createChooser(callIntent, "Choose a calling app:");
-                    if (callIntent.resolveActivity(getPackageManager()) != null) {
-                        startActivity(chooser);
-                    } else {
-                        // Handle the case where no activity can handle the call intent
-                        // You might want to show a message to the user or take alternative action
-                    }
+                    Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                    callIntent.setData(Uri.parse("tel:" + phoneNumber));
+                    startActivity(callIntent);
                 }
             }
 
